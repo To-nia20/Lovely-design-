@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color : #722f37;
+    color : white;
+    
+}
+.navbar{
+    background-color : white;
+    color:#420303 ;
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+    padding : 1rem 2rem;
+    
+}
+.navbar .logo{
+    font-size : 1.4rem;
+    font-weight: bold;
+    color :darkred ;
+
+    
+}
+.nav-links{
+    list-style: none;
+    display : flex;
+    gap: 1rem;
+}
+.nav-links a{
+    text-decoration: none;
+    color : darkred;
+    
+}
+.banner{
+    position : relative;
+    height : 500px;
+    display : flex;
+    align-items : center;
+    justify-content: flex-start;
+    padding-left: 4rem; 
+    overflow : hidden; 
+    color : white;
+}
+.bg-image{
+    position: absolute;
+    top:0; left:0;
+    width : 100%; height : 100%;
+    background:url('./Mine.jpg') no-repeat center center/cover;
+    z-index: 0;
+    filter: brightness(0.4);
+}
+.banner-text{
+    position: relative;
+    z-index: 1;
+    
+}
+.banner-text h1{
+    font-size : 1.9rem;
+    color: darkgoldenrod;
+}
+.banner-text p{
+    font-size : 1.2rem;
+    margin : 0.5rem 0 1rem;
+    
+}
+.banner-btn{
+    background-color : black;
+    color : white;
+    padding : 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius : 5px;
+    font-weight : bold;
+    margin-bottom : 2rem;
+} 
+.product-section{
+    padding : 3rem 2rem;
+    
+}
+.section-title{
+    text-align : center;
+    font-size : 2rem;
+    margin-bottom : 2rem;
+    
+}
+.product-grid{
+    display : flex;
+    gap: 2rem ;
+    justify-content : center;
+    flex-wrap: wrap;
+} 
+.product-card {
+    background-color : #5c1d13;
+    box-shadow : 0 0 15px rgba(0, 0, 0, 0.08);
+    padding : 1rem;
+    border-radius : 10px;
+    text-align : center;
+    width : 250px;
+}
+.product-card img{
+    width : 100%;
+    border-radius : 8px;
+}
+.product-card h3{
+    margin : 0.8rem 0 0.4rem;
+}
+
+.product-card p{
+    color : blanchedalmond;
+    margin : 1rem;
+}
+.product-card button {
+    background : #621d1d;
+    border : none;
+    padding : 0.6rem 1rem;
+    color:slategray ;
+    font-weight : bold;
+    border-radius : 5px;
+    cursor : pointer;
+}
+.footer {
+    background : #2d1f19;
+    padding : 2rem;
+    color : black;
+    text-align : center;
+}
+.footer .social a{
+    color: #67032f;
+    margin : 0 0.5rem;
+    text-decoration: none;
+    
+}
